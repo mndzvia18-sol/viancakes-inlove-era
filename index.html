@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>1000 Reasons Why I Love You</title>
+
+<style>
+
+/* ===== BASIC ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f3edff;
+    color: #4b3a57;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* ===== MAIN PAGE ===== */
+
+.page {
+    min-height: 100vh;
+    padding: 35px 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ===== CARD ===== */
+
+.card {
+    width: 100%;
+    max-width: 480px;
+
+    background: #fffdf8;
+
+    border-radius: 28px;
+
+    padding: 35px 25px;
+
+    text-align: center;
+
+    border: 2px solid #eadbff;
+
+    box-shadow: 0 10px 30px rgba(74, 52, 95, 0.12);
+}
+
+
+/* ===== SMALL INTRO ===== */
+
+.small-title {
+    margin: 0 0 15px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 10px;
+
+    letter-spacing: 3px;
+
+    color: #9875ad;
+
+    font-weight: bold;
+}
+
+
+/* ===== TITLE ===== */
+
+h1 {
+    margin: 0;
+
+    font-size: 42px;
+
+    line-height: 1.08;
+
+    font-weight: normal;
+
+    color: #4d3760;
+}
+
+h1 span {
+    color: #d09b24;
+}
+
+
+/* ===== DECORATION ===== */
+
+.line {
+    width: 55px;
+    height: 4px;
+
+    background: #e4bb4d;
+
+    border-radius: 10px;
+
+    margin: 22px auto;
+}
+
+
+/* ===== PICTURE AREA ===== */
+
+.picture {
+    width: 100%;
+    max-width: 280px;
+
+    height: 320px;
+
+    margin: 0 auto 25px;
+
+    border-radius: 20px;
+
+    background: #eee2fa;
+
+    border: 6px solid #f1d77b;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    color: #806d8b;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 12px;
+}
+
+
+/* ===== PICTURE ===== */
+
+.picture img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+/*
+   📸 PUT YOUR PICTURE HERE:
+   The image file should be named cover.jpg
+   and placed in the same folder as index.html.
+*/
+
+
+/* ===== INTRODUCTION ===== */
+
+.intro {
+    max-width: 390px;
+
+    margin: 13px auto;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    color: #6d5c76;
+}
+
+
+/* ===== HEART ===== */
+
+.heart {
+    margin: 22px 0;
+
+    font-size: 34px;
+
+    color: #7954a0;
+}
+
+
+/* ===== THANK YOU MESSAGE ===== */
+
+.message {
+    max-width: 390px;
+
+    margin: auto;
+
+    font-size: 13px;
+
+    line-height: 1.9;
+
+    color: #75627e;
+}
+
+.message p {
+    margin: 12px 0;
+}
+
+
+/* ===== SMALL NOTE ===== */
+
+.note {
+    margin-top: 24px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 11px;
+
+    letter-spacing: 1px;
+
+    color: #a07821;
+}
+
+
+/* ===== BUTTON ===== */
+
+.start {
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 14px 25px;
+
+    background: #76529a;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 50px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    box-shadow: 0 6px 15px rgba(118, 82, 154, 0.18);
+}
+
+.start span {
+    color: #ffe28a;
+
+    margin-left: 8px;
+
+    font-size: 16px;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    text-align: center;
+
+    padding: 0 15px 22px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 9px;
+
+    letter-spacing: 1px;
+
+    color: #8d7898;
+}
+
+
+/* ===== PHONE ===== */
+
+@media (max-width: 480px) {
+
+    .page {
+        padding: 20px 10px;
+    }
+
+    .card {
+        padding: 30px 18px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .picture {
+        height: 290px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="page">
+
+    <div class="card">
+
+        <p class="small-title">
+            A LITTLE SURPRISE FOR YOU
+        </p>
+
+
+        <h1>
+            1000 Reasons
+            <br>
+            <span>Why I Love You</span>
+        </h1>
+
+
+        <div class="line"></div>
+
+
+        <!-- ==============================
+             📸 PUT YOUR PICTURE HERE
+             ============================== -->
+
+        <div class="picture">
+
+            <img src="us.jpg" alt="Our picture">
+
+        </div>
+
+        <!-- ==============================
+             📸 END OF PICTURE
+             ============================== -->
+
+
+        <!-- INTRO -->
+
+        <p class="intro">
+            I made this little something for you
+            because sometimes saying "I love you"
+            doesn't feel like enough.
+        </p>
+
+        <p class="intro">
+            So instead, I wrote down
+            <b>1000 little reasons</b>
+            why I love having you in my life.
+        </p>
+
+
+        <div class="heart">
+            ♡
+        </div>
+
+
+        <!-- THANK YOU -->
+
+        <div class="message">
+
+            <p>
+                Thank you for every laugh,
+                every random conversation,
+                every memory, and every little moment
+                we've shared.
+            </p>
+
+            <p>
+                Thank you for being someone
+                I can laugh with, talk to,
+                annoy, and be completely myself around.
+            </p>
+
+            <p>
+                I hope these little reasons remind you
+                how much you mean to me.
+            </p>
+
+        </div>
+
+
+        <p class="note">
+            made with love, just for you ♡
+        </p>
+
+
+        <!-- NEXT PAGE -->
+
+        <a href="reasons1.html" class="start">
+            Begin the 1000 Reasons
+            <span>→</span>
+        </a>
+
+    </div>
+
+</div>
+
+
+<footer>
+    one person • a thousand reasons • countless memories
+</footer>
+
+
+</body>
+</html>
